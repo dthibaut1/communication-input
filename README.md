@@ -1,4 +1,4 @@
-# 07ChCommcompInput
+# 07-Challenge Commmunication Composant @Input
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 

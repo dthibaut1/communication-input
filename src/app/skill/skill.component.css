@@ -1,0 +1,34 @@
+img {
+  max-height: 48px;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+table {
+  margin: 20px;
+  border         : solid 0.2rem;
+  border-collapse: collapse;
+  text-align     : center;
+}
+
+tr {
+  border: solid 0.1rem;
+}
+
+td,
+th {
+  border : dashed 0.1rem;
+  padding: 0.2rem 0.3rem;
+}
+
+h3 {
+  color: crimson;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+

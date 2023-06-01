@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.fiche {
+  width: fit-content;
+  height: 100%;
+  margin: 0;
+  border: 1px solid grey;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  display: block;
+  color: crimson;
+  margin-left: 20px;
+}
+
+h2,h3,h4,p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+

@@ -1,0 +1,17 @@
+<h3>Compétences</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Techno</th>
+      <th>Logo</th>
+      <th>Site Techno</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let skill of skills">
+      <th>{{skill.name}}</th>
+      <th><img [src]="skill.logo" alt="Logo {{ skill.name }}" /></th>
+      <th><a href="{{ skill.site }}" target="_blank">-> {{ skill.name }}</a></th>
+    </tr>
+  </tbody>
+</table>
