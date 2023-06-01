@@ -8,7 +8,7 @@ import { developersList } from '../models/dev-skills.mock';
 })
 export class DeveloperComponent implements OnInit {
 
-  developer = developersList[1];
+  // developer = developersList[1];
   developers = developersList;
 
   constructor() {}

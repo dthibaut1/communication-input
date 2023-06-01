@@ -1,13 +1,13 @@
 .container {
   display: flex;
   width: 100%;
-  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .fiche {
   width: fit-content;
-  height: 100%;
-  margin: 0;
+  height: auto;
+  margin-right: 10px;
   border: 1px solid grey;
   align-items: center;
 }
