@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Skill } from '../models/skill.model';
-import { developersList } from '../models/dev-skills.mock';
 
 @Component({
   selector: 'app-skill',
@@ -9,10 +8,17 @@ import { developersList } from '../models/dev-skills.mock';
 })
 export class SkillComponent implements OnInit {
 
+  // @Input()
+  // skills: Skill[] = [];
+
   @Input()
-  skills: Skill[] = [];
+  name: string = '';
 
+  @Input()
+  logo: string = '';
 
+  @Input()
+  site: string = '';
 
   constructor() { }
 

@@ -8,10 +8,10 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let skill of skills">
-      <th>{{skill.name}}</th>
-      <th><img [src]="skill.logo" alt="Logo {{ skill.name }}" /></th>
-      <th><a href="{{ skill.site }}" target="_blank">-> {{ skill.name }}</a></th>
+    <tr>
+      <th>{{ name }}</th>
+      <th><img [src]="logo" alt="Logo {{ name }}" /></th>
+      <th><a href="{{ site }}" target="_blank">-> {{ name }}</a></th>
     </tr>
   </tbody>
 </table>

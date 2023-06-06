@@ -8,7 +8,12 @@
     <h3>Age: {{ developer.age }} ans</h3>
     <h3>Genre: {{ developer.gender }}</h3>
     <h4>Bio: {{ developer.bio }}</h4>
-    <app-skill [skills]="developer.skills"></app-skill>
+    <app-skill
+      *ngFor="let skill of developer.skills"
+      [name] = "skill.name"
+      [logo] = "skill.logo"
+      [site] = "skill.site"
+    ></app-skill>
   </div>
 </div>
 
